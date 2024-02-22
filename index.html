@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafio API- Conversor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-div">
+            <h1>Conversor de Monedas Nacional</h1>
+    
+            <p>Pesos CLP</p>
+
+            <input class="campo" type="text">
+
+            <p>Moneda a convertir:</p>
+
+            <select name="moneda" id="moneda">
+                <option value="0">---Select----</option>
+                <option value="1">Dólar (USD)</option>
+                <option value="2">Euro (€)</option>
+            </select>
+
+
+            <!--button id="agregar">Agregar</button-->
+    
+            <div class="container-listado">
+                <div>
+                    <button id="agregar">Buscar</button>
+                </div>
+        
+                <div class="tareas">
+                    <p>Resultado: </p>
+                    <ul id="resultado">
+                    </ul>
+                </div>
+            </div>
+            <!--Grafica-->
+            <div class="grafica">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>        
+    </div>
+    
+    <!--Plugin CDN chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!--Hoja de script-->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

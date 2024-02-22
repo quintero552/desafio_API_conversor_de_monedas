@@ -1,1 +1,1 @@
-por motivo de traajo, no pude entregar el desafio con tiempo.
+por motivo de trabajo, no pude entregar el desafio con tiempo.
